@@ -35,7 +35,7 @@ body {
 .nicknameFrame .inputField input {
   margin-right: 10px;
   width: 50%;
-  height: 23px;
+  height: 25px;
 
   border: 1px solid;
   border-radius: 5px;
@@ -56,6 +56,7 @@ body {
 }
 .nicknameFrame .nicknameDiscribe {
   margin-top: 10px;
+  margin-bottom: 30px;
   
   font-weight: 300;
   font-size: 12px;
