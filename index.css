@@ -34,16 +34,16 @@ body {
 }
 .nicknameFrame .inputField input {
   margin-right: 10px;
-  width: 60%;
+  width: 50%;
   height: 23px;
 
   border: none;
+  border-radius: 0%;
   border-bottom: 1px solid;
 
   background-color: rgba(255, 255, 255, 0);
 }
 .nicknameFrame .inputField button {
-  width: 25%;
   height: 30px;
 
   border: 1px solid rgba(0, 0, 0, 0);
