@@ -37,17 +37,18 @@ body {
   width: 50%;
   height: 23px;
 
-  border: none;
-  border-radius: 0%;
-  border-bottom: 1px solid;
+  border: 1px solid;
+  border-radius: 5px;
 
   background-color: rgba(255, 255, 255, 0);
 }
 .nicknameFrame .inputField button {
+  width: 100px;
   height: 30px;
 
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 5px;
+  padding: 3px 6px;
   background-color: #7846fe;
   color: white;
 
