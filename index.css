@@ -8,6 +8,15 @@ body {
 
   background-color: #daccf8;
 }
+body ol {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+  text-align: center;
+}
+body ol li {
+  margin-bottom: 5px;
+}
 
 .title {
   display: flex;
@@ -60,4 +69,53 @@ body {
   
   font-weight: 300;
   font-size: 12px;
+}
+
+.dateFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 100%;
+}
+.dateFrame .selector {
+  font-weight: 400;
+  font-size: 18px;
+
+  margin-bottom: 10px;
+
+  text-align: center;
+}
+.dateFrame .year {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-weight: 300;
+}
+.dateFrame .year #Year2022 {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.dateFrame .year #Year2023 {
+  cursor: pointer;
+}
+.dateFrame .month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dateFrame .month .monthList {
+  opacity: 0;
+  cursor: pointer;
+}
+.dateFrame .date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dateFrame .date .dateList {
+  opacity: 0;
+  cursor: pointer;
 }

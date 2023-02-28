@@ -102,7 +102,7 @@ function Year2022ToMonth() {
   resetDate();
   $("#Year2022").css("font-weight", "500");
   $("#Year2023").css("font-weight", "300");
-  $(".Monthlist").css("opacity", "1");
+  $(".monthList").css("opacity", "1");
   $("#January").css("opacity", "1");
   $("#February").css("opacity", "1");
   $("#March").css("opacity", "1");
@@ -121,7 +121,7 @@ function Year2023ToMonth() {
   resetDate();
   $("#Year2022").css("font-weight", "300");
   $("#Year2023").css("font-weight", "500");
-  $(".Monthlist").css("opacity", "1");
+  $(".monthList").css("opacity", "1");
   $("#January").css("opacity", "1");
   $("#February").css("opacity", "1");
 }
@@ -129,7 +129,7 @@ function Year2023ToMonth() {
 function JanuaryToDate() {
   resetDate();
   resetDateFontweight();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "500");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
@@ -213,7 +213,7 @@ function JanuaryToDate() {
 function FebruaryToDate() {
   resetDate();
   resetDateFontweight();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "500");
   $("#March").css("font-weight", "300");
@@ -297,7 +297,7 @@ function FebruaryToDate() {
 function MarchToDate() {
   resetDate();
   resetDateFontweight();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "500");
@@ -345,7 +345,7 @@ function MarchToDate() {
 }
 function AprilToDate() {
   resetDate();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
@@ -393,7 +393,7 @@ function AprilToDate() {
 }
 function MayToDate() {
   resetDate();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
@@ -441,7 +441,7 @@ function MayToDate() {
 }
 function JuneToDate() {
   resetDate();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
@@ -489,7 +489,7 @@ function JuneToDate() {
 }
 function JulyToDate() {
   resetDate();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
@@ -537,7 +537,7 @@ function JulyToDate() {
 }
 function AugustToDate() {
   resetDate();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
@@ -585,7 +585,7 @@ function AugustToDate() {
 }
 function SeptemberToDate() {
   resetDate();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
@@ -633,7 +633,7 @@ function SeptemberToDate() {
 }
 function OctoberToDate() {
   resetDate();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
@@ -681,7 +681,7 @@ function OctoberToDate() {
 }
 function NovemberToDate() {
   resetDate();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
@@ -729,7 +729,7 @@ function NovemberToDate() {
 }
 function DecemberToDate() {
   resetDate();
-  $(".Datelist").css("opacity", "1");
+  $(".dateList").css("opacity", "1");
   $("#January").css("font-weight", "300");
   $("#February").css("font-weight", "300");
   $("#March").css("font-weight", "300");
