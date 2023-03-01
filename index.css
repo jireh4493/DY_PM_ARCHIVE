@@ -127,11 +127,3 @@ body a {
   opacity: 0;
   cursor: pointer;
 }
-
-footer {
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  padding-bottom: 20px;
-}
