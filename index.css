@@ -17,6 +17,10 @@ body ol {
 body ol li {
   margin-bottom: 5px;
 }
+body a {
+  text-decoration: none;
+  color: black;
+}
 
 .title {
   display: flex;
@@ -77,7 +81,6 @@ body ol li {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-
 }
 .dateFrame .selector {
   font-weight: 400;
@@ -115,7 +118,20 @@ body ol li {
   flex-direction: column;
   justify-content: center;
 }
+.dateFrame .date .dateSet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .dateFrame .date .dateList {
   opacity: 0;
   cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding-bottom: 20px;
 }

@@ -775,3 +775,1348 @@ function DecemberToDate() {
   $("#Date30").css("opacity", "1");
   $("#Date31").css("opacity", "1");
 }
+
+function goToDate1() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "PM/PM_20230201.html"
+    }
+  }
+}
+function goToDate2() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate3() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "PM/PM_20230203.html"
+    }
+  }
+}
+function goToDate4() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate5() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate6() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "PM/PM_20230206.html"
+    }
+  }
+}
+function goToDate7() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate8() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "PM/PM_20230208.html"
+    }
+  }
+}
+function goToDate9() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate10() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "PM/PM_20230210.html"
+    }
+  }
+}
+function goToDate11() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate12() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "PM/PM_20230212.html"
+    }
+  }
+}
+function goToDate13() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate14() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "PM/PM_20230114.html"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate15() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "PM/PM_20230215.html"
+    }
+  }
+}
+function goToDate16() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate17() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "PM/PM_20230117.html"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate18() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "PM/PM_20230118.html"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate19() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate20() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate21() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "PM/PM_20230121.html"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate22() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate23() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "PM/PM_20230123.html"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate24() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate25() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate26() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "PM/PM_20230126.html"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate27() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}
+function goToDate28() {
+  if ($("#Year2022").css("font-weight") == 500) {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#February").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("March").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#April").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#May").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#June").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#July").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#August").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#September").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#October").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else if ($("#November").css("font-weight") == 500) {
+      location.href = "#"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+  else {
+    if ($("#January").css("font-weight") == 500) {
+      location.href = "PM/PM_20230128.html"
+    }
+    else {
+      location.href = "#"
+    }
+  }
+}

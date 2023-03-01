@@ -15,9 +15,9 @@
   <script src="index.js"></script>
 </head>
 <body>
-  <div class="title">
+  <h1 class="title">
     <span id="title1">Dayeon</span><span id="title2">PM Archive</span>
-  </div>
+  </h1>
 
   <div class="nicknameFrame">
     <div class="inputField">
@@ -30,7 +30,7 @@
     </div>
   </div>
 
-  <div class="dateFrame">
+  <div class="dateFrame" style="margin-right: 10%;">
     <div class="year">
       <div class="selector">Year</div>
       <div id="Year2022" onclick="Year2022ToMonth()">2022</div>
@@ -55,39 +55,43 @@
     </div>
     <div class="date">
       <div class="selector">Date</div>
-      <ol class="dateList">
-        <li id="Date1">1st</li>
-        <li id="Date2">2nd</li>
-        <li id="Date3">3rd</li>
-        <li id="Date4">4th</li>
-        <li id="Date5">5th</li>
-        <li id="Date6">6th</li>
-        <li id="Date7">7th</li>
-        <li id="Date8">8th</li>
-        <li id="Date9">9th</li>
-        <li id="Date10">10th</li>
-        <li id="Date11">11th</li>
-        <li id="Date12">12th</li>
-        <li id="Date13">13th</li>
-        <li id="Date14">14th</li>
-        <li id="Date15">15th</li>
-        <li id="Date16">16th</li>
-        <li id="Date17">17th</li>
-        <li id="Date18">18th</li>
-        <li id="Date19">19th</li>
-        <li id="Date20">20th</li>
-        <li id="Date21">21st</li>
-        <li id="Date22">22nd</li>
-        <li id="Date23">23rd</li>
-        <li id="Date24">24th</li>
-        <li id="Date25">25th</li>
-        <li id="Date26">26th</li>
-        <li id="Date27">27th</li>
-        <li id="Date28">28th</li>
-        <li id="Date29">29th</li>
-        <li id="Date30">30th</li>
-        <li id="Date31">31st</li>
-      </ol>
+      <div class="dateSet"> 
+        <ol class="dateList" style="padding-right: 5px;">
+          <li id="Date1" onclick="goToDate1()">1st</li>
+          <li id="Date2" onclick="goToDate2()">2nd</li>
+          <li id="Date3" onclick="goToDate3()">3rd</li>
+          <li id="Date4" onclick="goToDate4()">4th</li>
+          <li id="Date5" onclick="goToDate5()">5th</li>
+          <li id="Date6" onclick="goToDate6()">6th</li>
+          <li id="Date7" onclick="goToDate7()">7th</li>
+          <li id="Date8" onclick="goToDate8()">8th</li>
+          <li id="Date9" onclick="goToDate9()">9th</li>
+          <li id="Date10" onclick="goToDate10()">10th</li>
+          <li id="Date11" onclick="goToDate11()">11th</li>
+          <li id="Date12" onclick="goToDate12()">12th</li>
+          <li id="Date13" onclick="goToDate13()">13th</li>
+          <li id="Date14" onclick="goToDate14()">14th</li>
+          <li id="Date15" onclick="goToDate15()">15th</li>
+          <li id="Date16" onclick="goToDate16()">16th</li>
+        </ol>  
+        <ol class="dateList">
+          <li id="Date17" onclick="goToDate17()">17th</li>
+          <li id="Date18" onclick="goToDate18()">18th</li>
+          <li id="Date19" onclick="goToDate19()">19th</li>
+          <li id="Date20" onclick="goToDate20()">20th</li>
+          <li id="Date21" onclick="goToDate21()">21st</li>
+          <li id="Date22" onclick="goToDate22()">22nd</li>
+          <li id="Date23" onclick="goToDate23()">23rd</li>
+          <li id="Date24" onclick="goToDate24()">24th</li>
+          <li id="Date25" onclick="goToDate25()">25th</li>
+          <li id="Date26" onclick="goToDate26()">26th</li>
+          <li id="Date27" onclick="goToDate27()">27th</li>
+          <li id="Date28" onclick="goToDate28()">28th</li>
+          <li id="Date29" onclick="goToDate29()">29th</li>
+          <li id="Date30" onclick="goToDate30()">30th</li>
+          <li id="Date31" onclick="goToDate31()">31st</li>
+        </ol>
+      </div>
     </div>
   </div>
   <footer style="text-align: center;">
