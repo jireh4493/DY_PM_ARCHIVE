@@ -1,315 +1,319 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://webfontworld.github.io/score/SCoreDream.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine" />
-  <link rel="stylesheet" href="PM/PM_Text.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://webfontworld.github.io/score/SCoreDream.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine" />
+    <link rel="stylesheet" href="PM_Text.css">
 
-  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="Plugins/jQuery Cookie/jquery.cookie.js"></script>
-  <script src="PM/PM_Text.js"></script>
-</head>
-<body>
-  <div class="DateFramePM"> 
-    <span class="DatePM" id="20230206">02.15</span>
-  </div>
-  
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst" style="margin-right: 10vw;"><span class="DisplayNickname">케플리안</span></span>
-    <span class="PMContentLast">요니닷</span>
-    <span class="Time">22:21</span>IMG/Profile/IMG_2514.jpg
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst" style="margin-right: 5vw;">기다려써~~?</span>
-    <span class="PMContentLast">헤헤</span>
-    <span class="Time">22:22</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst" style="margin-right: 5vw;">나 낮잠자다가</span>
-    <span class="PMContent">방금 깨써</span>
-    <span class="PMContent" style="margin-right: 10vw;">8시 반부터</span>
-    <span class="PMContent">ㅋㅋㅎㅋㅎㅋㅋㅋㅎ</span>
-    <span class="PMContentLast">엥 이거 낮잠 아니야?</span>
-    <span class="Time">22:23</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">아니 기래서 지금 완전 비몽사몽해</span>  <!--금/귬-->
-    <span class="PMContent">오늘 밤에 못 자겠다고?</span>
-    <span class="PMContent" style="margin-right: 5vw;">노노~~</span>
-    <span class="PMContent">난 잘자지롱</span>
-    <span class="PMContentLast">지금 실눈 뜨고 프메중</span>    <!--중/즁-->
-    <span class="Time">22:24</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">원래 9시 반쯤 프메 하려고 했는데</span>
-    <span class="PMContent">일어나보니 10시 반</span>
-    <span class="PMContentLast">밥은 머겄냐구? 나 오늘 짱마니 머금..</span>
-    <span class="Time">22:25</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">밀푀유나베 머거떠</span>
-    <span class="PMContent">진짜 너무 맛있어!!!!!!!</span>
-    <span class="PMContent">시켜머것써</span>
-    <span class="PMContentLast">치킨꼬치도 먹어따..</span>
-    <span class="Time">22:26</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">웅 혼자 머겄눈데에</span>
-    <span class="PMContent">요거트아이스크림의<br>정석 먹어봤냐곤?</span>
-    <span class="PMContent" style="margin-right: 5vw;">그게 모야..</span>  
-    <span class="PMContent">마시써?</span>
-    <span class="PMContentLast">헐 모르면 바보라구?!?</span>
-    <span class="Time">22:27</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">맛있겠당😢</span>
-    <span class="PMContent">오 여기 바보 많은데? ㅋ</span>
-    <span class="PMContentLast">ㅋㅎㅋㅎㅋㅎㅋㅎㅋ 장난</span>
-    <span class="Time">22:28</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">혼밥 자주 하냐고??</span>
-    <span class="PMContent" style="margin-right: 5vw;">일상인데</span>
-    <span class="PMContent" style="margin-right: 5vw;">나 혼밥</span>
-    <span class="PMContent">너무 좋아해</span>
-    <span class="PMContent">예서급으로 좋아해</span>
-    <span class="PMContent">근데 진짜 예서는 혼밥 만렙이야</span>
-    <span class="PMContentLast">혼자 고기 먹으로 간거 보고</span>
-    <span class="Time">22:29</span>   
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">어나더 레베루 데스 라고 생각함</span>
-    <span class="PMContent">나도 할 수는 있는데 해보진 않아써</span>
-    <span class="PMContent">혼밥 어디까지 가능하냐고?</span>
-    <span class="PMContentLast">흠</span>
-    <span class="Time">22:30</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">패밀리 레스토랑 불가능</span>
-    <span class="PMContent">뷔페 가능</span>
-    <span class="PMContent">예서처럼 막 1인고기집 이런데면 가능</span>
-    <span class="PMContent">그냥 일반 고기집은 불가능</span>
-    <span class="PMContentLast">웅 뷔페는.. 가능할 것 같은뎅??</span>
-    <span class="Time">22:31</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">명륜진사갈비 혼밥ㄱ??<br>ㄴㄴ불가능</span>
-    <span class="PMContent">뷔페는 뭔가</span>
-    <span class="PMContent" style="margin-right: 5vw;">왜 되지?</span>
-    <span class="PMContent">흠 나도 의문이야</span>
-    <span class="PMContent">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
-    <span class="PMContent">아니 아까 먹은 밀푀유나베 너무<br>맛있어서</span>
-    <span class="PMContentLast">아직도 여운이 남네</span>
-    <span class="Time">22:32</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">나 요즘 그런게 너무 땡겼어</span>
-    <span class="PMContent">샤브샤브 스끼야끼 밀푀유나베 이런거</span>
-    <span class="PMContentLast">훠궈도 좋지</span>
-    <span class="Time">22:33</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst" style="margin-right: 5vw;">아 오늘 안무영상</span>
-    <span class="PMContent">떴던데에</span>
-    <span class="PMContent">그거 저 날 배우고 바로 찍은거라</span>
-    <span class="PMContent">우리 다들 엄청 떨려해써</span>
-    <span class="PMContent">틀릴까봐ㅋㅋㅋㅎㅋㅎㅋ</span> <!--봨/봐ㅋ-->
-    <span class="PMContent" style="margin-right: 5vw;">But?</span>
-    <span class="PMContentLast">케플러는 천재라서</span>
-    <span class="Time">22:35</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">가능할 수 있었다....⭐️</span>
-    <span class="PMContent">욘찌 영상으로 보니까 생각보다<br>크다궄ㅋㅋ</span>
-    <span class="PMContent" style="margin-right: 5vw;">ㅋㅋㅎㅋㅎ?</span>
-    <span class="PMContentLast">구래..?</span>
-    <span class="Time">22:36</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">사진으로 더 작아보였나부네</span>
-    <span class="PMContent" style="margin-right: 5vw;">근데 납작해</span>
-    <span class="PMContent">머리부분 빼고</span>
-    <span class="PMContent">왜 콕콕 찌르는데 안줄어드냐고?!</span>
-    <span class="PMContentLast">흥</span>
-    <span class="Time">22:37</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">최선을 다한 작품이야</span>
-    <span class="PMContent">(아닌가)</span>
-    <span class="PMContent">머리 만들고 좀 지쳤었나봐</span>
-    <span class="PMContent">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ<br>ㅋㅋㅋㅋㅋ</span>
-    <span class="PMContent">아 그리고 머리를 좀 크게 해서 </span>
-    <span class="PMContent">몸을 더 둔둔하게 만들기엔</span>
-    <span class="PMContentLast">솜이 부족해써</span>
-    <span class="Time">22:38</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">그냥 머리만 만들걸 그랬나 .</span>
-    <span class="PMContent">일부러 머리 크게 만들었냐궁?</span>
-    <span class="PMContent" style="margin-right: 5vw;">아녀..</span>
-    <span class="PMContentLast">걍 감이 없는겨..</span>
-    <span class="Time">22:39</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">요니 잠시 물 마시구 와떵</span>
-    <span class="PMContent">삐진줄이라닝</span>
-    <span class="PMContentLast">나 삐쟁이 아니거덩</span>
-    <span class="Time">22:42</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">삐진 요니 귀엽다구?!?</span>
-    <span class="PMContentLast">ㅎㅎㅎ삐져볼까</span>
-    <span class="Time">22:43</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">그건 아니라고?</span>
-    <span class="PMContent" style="margin-right: 5vw;">ㅇㅋ</span>
-    <span class="PMContent">안삐질고야~</span>
-    <span class="PMContentLast">내가 커버하는 흥칫뿡야<br>보고싶다고?</span>
-    <span class="Time">22:44</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">나 진짜 좋아해</span>
-    <span class="PMContent">진짜 잘 할 수 있는데</span>
-    <span class="PMContent">온갖 끼 다 부려가면서</span>
-    <span class="PMContent" style="margin-right: 5vw;">후.</span>
-    <span class="PMContent">유진언니랑 예서랑 이렇게 셋이서</span>
-    <span class="PMContent">어때 </span>
-    <span class="PMContentLast">ㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋ</span>
-    <span class="Time">22:45</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">오 시로언니도 괜찬타</span>
-    <span class="PMContent">히카루?</span>
-    <span class="PMContent">싫어할 것 같은데 그래서 시키고 싶다</span>
-    <span class="PMContentLast">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ<br>ㅋ</span>
-    <span class="Time">22:46</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentOnlyOne">이 시간에 시리얼 먹는거 오바냐구?</span>
-    <span class="Time">22:47</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">왜 오바인거야?</span>
-    <span class="PMContent">ㅋㅋㅋㅋㄱㅋㅋㅋㅅㅋㄱㅋㅋㅋㄹㅋㅋ<br>ㅋ</span>
-    <span class="PMContent" style="margin-right: 5vw;">살 걱정 하지마 <span class="DisplayNickname">케플리안</span></span>
-    <span class="PMContent">제 에 발</span>
-    <span class="PMContentLast"><span class="DisplayNickname">케플리안</span>&nbsp;제발 먹고 싶은거 다 머거ㅠㅠㅠ</span>
-    <span class="Time">22:48</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">난 진짜 잘 먹는다니께!!</span>
-    <span class="PMContent" style="margin-right: 5vw;">😩</span>
-    <span class="PMContentLast" style="margin-right: 5vw;">뻥아님</span>
-    <span class="Time">22:50</span> 
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">요니 허리 주먹만 하다고?</span>
-    <span class="PMContent">누구 주먹이 그렇게 큰거야</span>
-    <span class="PMContent">선더일레븐이냐거</span>
-    <span class="PMContentLast">ㅋㅋㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋ</span>
-    <span class="Time">22:51</span> 
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentOnlyOne">아맞다 i do do you 하라메로 듣구 어때써</span>
-    <span class="Time">22:52</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentOnlyOne">아 마자 투게더 포에버도 진짜 좋아 진짜 내취형</span>
-    <span class="Time">22:53</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">다들 반응이 좋구먼</span>
-    <span class="PMContent">다행이야😆</span>
-    <span class="PMContent">얼른 무대 보고싶지~~~~~~</span>
-    <span class="PMContent">내 취향은</span>
-    <span class="PMContentLast">투게더 포에버가 더 조아</span>
-    <span class="Time">22:54</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentOnlyOne">투게더 파도 많넹</span>
-    <span class="Time">22:55</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">헤헤 요니 이제 가볼게에</span>
-    <span class="PMContent">좀 쉬다가 더 자야게써</span>
-    <span class="PMContentLast">나두 보고시퍼</span>
-    <span class="Time">22:56</span>
-  </div>
-  <div class="PMFrame">
-    <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
-    <div class="Name">요니><</div>
-    <span class="PMContentFirst">오늘도 고마웠구 재밌어써</span>
-    <span class="PMContent" style="margin-right: 5vw;">앙녕</span>
-    <span class="PMContentLast">굿나잇🌙🙏🏻💗🫶🏻</span>
-    <span class="Time">22:57</span>
-  </div>
-</body>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="Plugins/jQuery Cookie/jquery.cookie.js"></script>
+    <script src="PM_Text.js"></script>
+  </head>
+  <body>
+    <div>
+      <!--title & date selector-->
+    </div>
+
+    <div class="datePM">
+      <span>02.15</span>
+    </div>
+    
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst" style="margin-right: 10vw;"><span class="DisplayNickname">케플리안</span></span>
+      <span class="PMContentLast">요니닷</span>
+      <span class="Time">22:21</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst" style="margin-right: 5vw;">기다려써~~?</span>
+      <span class="PMContentLast">헤헤</span>
+      <span class="Time">22:22</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst" style="margin-right: 5vw;">나 낮잠자다가</span>
+      <span class="PMContent">방금 깨써</span>
+      <span class="PMContent" style="margin-right: 10vw;">8시 반부터</span>
+      <span class="PMContent">ㅋㅋㅎㅋㅎㅋㅋㅋㅎ</span>
+      <span class="PMContentLast">엥 이거 낮잠 아니야?</span>
+      <span class="Time">22:23</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">아니 기래서 지금 완전 비몽사몽해</span>  <!--금/귬-->
+      <span class="PMContent">오늘 밤에 못 자겠다고?</span>
+      <span class="PMContent" style="margin-right: 5vw;">노노~~</span>
+      <span class="PMContent">난 잘자지롱</span>
+      <span class="PMContentLast">지금 실눈 뜨고 프메중</span>    <!--중/즁-->
+      <span class="Time">22:24</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">원래 9시 반쯤 프메 하려고 했는데</span>
+      <span class="PMContent">일어나보니 10시 반</span>
+      <span class="PMContentLast">밥은 머겄냐구? 나 오늘 짱마니 머금..</span>
+      <span class="Time">22:25</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">밀푀유나베 머거떠</span>
+      <span class="PMContent">진짜 너무 맛있어!!!!!!!</span>
+      <span class="PMContent">시켜머것써</span>
+      <span class="PMContentLast">치킨꼬치도 먹어따..</span>
+      <span class="Time">22:26</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">웅 혼자 머겄눈데에</span>
+      <span class="PMContent">요거트아이스크림의<br>정석 먹어봤냐곤?</span>
+      <span class="PMContent" style="margin-right: 5vw;">그게 모야..</span>  
+      <span class="PMContent">마시써?</span>
+      <span class="PMContentLast">헐 모르면 바보라구?!?</span>
+      <span class="Time">22:27</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">맛있겠당😢</span>
+      <span class="PMContent">오 여기 바보 많은데? ㅋ</span>
+      <span class="PMContentLast">ㅋㅎㅋㅎㅋㅎㅋㅎㅋ 장난</span>
+      <span class="Time">22:28</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">혼밥 자주 하냐고??</span>
+      <span class="PMContent" style="margin-right: 5vw;">일상인데</span>
+      <span class="PMContent" style="margin-right: 5vw;">나 혼밥</span>
+      <span class="PMContent">너무 좋아해</span>
+      <span class="PMContent">예서급으로 좋아해</span>
+      <span class="PMContent">근데 진짜 예서는 혼밥 만렙이야</span>
+      <span class="PMContentLast">혼자 고기 먹으로 간거 보고</span>
+      <span class="Time">22:29</span>   
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">어나더 레베루 데스 라고 생각함</span>
+      <span class="PMContent">나도 할 수는 있는데 해보진 않아써</span>
+      <span class="PMContent">혼밥 어디까지 가능하냐고?</span>
+      <span class="PMContentLast">흠</span>
+      <span class="Time">22:30</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">패밀리 레스토랑 불가능</span>
+      <span class="PMContent">뷔페 가능</span>
+      <span class="PMContent">예서처럼 막 1인고기집 이런데면 가능</span>
+      <span class="PMContent">그냥 일반 고기집은 불가능</span>
+      <span class="PMContentLast">웅 뷔페는.. 가능할 것 같은뎅??</span>
+      <span class="Time">22:31</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">명륜진사갈비 혼밥ㄱ??<br>ㄴㄴ불가능</span>
+      <span class="PMContent">뷔페는 뭔가</span>
+      <span class="PMContent" style="margin-right: 5vw;">왜 되지?</span>
+      <span class="PMContent">흠 나도 의문이야</span>
+      <span class="PMContent">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
+      <span class="PMContent">아니 아까 먹은 밀푀유나베 너무<br>맛있어서</span>
+      <span class="PMContentLast">아직도 여운이 남네</span>
+      <span class="Time">22:32</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">나 요즘 그런게 너무 땡겼어</span>
+      <span class="PMContent">샤브샤브 스끼야끼 밀푀유나베 이런거</span>
+      <span class="PMContentLast">훠궈도 좋지</span>
+      <span class="Time">22:33</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst" style="margin-right: 5vw;">아 오늘 안무영상</span>
+      <span class="PMContent">떴던데에</span>
+      <span class="PMContent">그거 저 날 배우고 바로 찍은거라</span>
+      <span class="PMContent">우리 다들 엄청 떨려해써</span>
+      <span class="PMContent">틀릴까봐ㅋㅋㅋㅎㅋㅎㅋ</span> <!--봨/봐ㅋ-->
+      <span class="PMContent" style="margin-right: 5vw;">But?</span>
+      <span class="PMContentLast">케플러는 천재라서</span>
+      <span class="Time">22:35</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">가능할 수 있었다....⭐️</span>
+      <span class="PMContent">욘찌 영상으로 보니까 생각보다<br>크다궄ㅋㅋ</span>
+      <span class="PMContent" style="margin-right: 5vw;">ㅋㅋㅎㅋㅎ?</span>
+      <span class="PMContentLast">구래..?</span>
+      <span class="Time">22:36</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">사진으로 더 작아보였나부네</span>
+      <span class="PMContent" style="margin-right: 5vw;">근데 납작해</span>
+      <span class="PMContent">머리부분 빼고</span>
+      <span class="PMContent">왜 콕콕 찌르는데 안줄어드냐고?!</span>
+      <span class="PMContentLast">흥</span>
+      <span class="Time">22:37</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">최선을 다한 작품이야</span>
+      <span class="PMContent">(아닌가)</span>
+      <span class="PMContent">머리 만들고 좀 지쳤었나봐</span>
+      <span class="PMContent">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ<br>ㅋㅋㅋㅋㅋ</span>
+      <span class="PMContent">아 그리고 머리를 좀 크게 해서 </span>
+      <span class="PMContent">몸을 더 둔둔하게 만들기엔</span>
+      <span class="PMContentLast">솜이 부족해써</span>
+      <span class="Time">22:38</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">그냥 머리만 만들걸 그랬나 .</span>
+      <span class="PMContent">일부러 머리 크게 만들었냐궁?</span>
+      <span class="PMContent" style="margin-right: 5vw;">아녀..</span>
+      <span class="PMContentLast">걍 감이 없는겨..</span>
+      <span class="Time">22:39</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">요니 잠시 물 마시구 와떵</span>
+      <span class="PMContent">삐진줄이라닝</span>
+      <span class="PMContentLast">나 삐쟁이 아니거덩</span>
+      <span class="Time">22:42</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">삐진 요니 귀엽다구?!?</span>
+      <span class="PMContentLast">ㅎㅎㅎ삐져볼까</span>
+      <span class="Time">22:43</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">그건 아니라고?</span>
+      <span class="PMContent" style="margin-right: 5vw;">ㅇㅋ</span>
+      <span class="PMContent">안삐질고야~</span>
+      <span class="PMContentLast">내가 커버하는 흥칫뿡야<br>보고싶다고?</span>
+      <span class="Time">22:44</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">나 진짜 좋아해</span>
+      <span class="PMContent">진짜 잘 할 수 있는데</span>
+      <span class="PMContent">온갖 끼 다 부려가면서</span>
+      <span class="PMContent" style="margin-right: 5vw;">후.</span>
+      <span class="PMContent">유진언니랑 예서랑 이렇게 셋이서</span>
+      <span class="PMContent">어때 </span>
+      <span class="PMContentLast">ㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋ</span>
+      <span class="Time">22:45</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">오 시로언니도 괜찬타</span>
+      <span class="PMContent">히카루?</span>
+      <span class="PMContent">싫어할 것 같은데 그래서 시키고 싶다</span>
+      <span class="PMContentLast">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ<br>ㅋ</span>
+      <span class="Time">22:46</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">이 시간에 시리얼 먹는거 오바냐구?</span>
+      <span class="Time">22:47</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">왜 오바인거야?</span>
+      <span class="PMContent">ㅋㅋㅋㅋㄱㅋㅋㅋㅅㅋㄱㅋㅋㅋㄹㅋㅋ<br>ㅋ</span>
+      <span class="PMContent" style="margin-right: 5vw;">살 걱정 하지마 <span class="DisplayNickname">케플리안</span></span>
+      <span class="PMContent">제 에 발</span>
+      <span class="PMContentLast"><span class="DisplayNickname">케플리안</span>&nbsp;제발 먹고 싶은거 다 머거ㅠㅠㅠ</span>
+      <span class="Time">22:48</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">난 진짜 잘 먹는다니께!!</span>
+      <span class="PMContent" style="margin-right: 5vw;">😩</span>
+      <span class="PMContentLast" style="margin-right: 5vw;">뻥아님</span>
+      <span class="Time">22:50</span> 
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">요니 허리 주먹만 하다고?</span>
+      <span class="PMContent">누구 주먹이 그렇게 큰거야</span>
+      <span class="PMContent">선더일레븐이냐거</span>
+      <span class="PMContentLast">ㅋㅋㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋ</span>
+      <span class="Time">22:51</span> 
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">아맞다 i do do you 하라메로 듣구 어때써</span>
+      <span class="Time">22:52</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">아 마자 투게더 포에버도 진짜 좋아 진짜 내취형</span>
+      <span class="Time">22:53</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">다들 반응이 좋구먼</span>
+      <span class="PMContent">다행이야😆</span>
+      <span class="PMContent">얼른 무대 보고싶지~~~~~~</span>
+      <span class="PMContent">내 취향은</span>
+      <span class="PMContentLast">투게더 포에버가 더 조아</span>
+      <span class="Time">22:54</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">투게더 파도 많넹</span>
+      <span class="Time">22:55</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">헤헤 요니 이제 가볼게에</span>
+      <span class="PMContent">좀 쉬다가 더 자야게써</span>
+      <span class="PMContentLast">나두 보고시퍼</span>
+      <span class="Time">22:56</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">오늘도 고마웠구 재밌어써</span>
+      <span class="PMContent" style="margin-right: 5vw;">앙녕</span>
+      <span class="PMContentLast">굿나잇🌙🙏🏻💗🫶🏻</span>
+      <span class="Time">22:57</span>
+    </div>
+  </body>
 </html>

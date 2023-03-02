@@ -1,4 +1,87 @@
-.DateFramePM {
+body {
+  margin: 30px;
+
+  font-family: 'SCoreDream', sans-serif;
+  font-weight: 400;
+
+  background-color: #daccf8;
+}
+
+.datePM {
+  display: flex;
+  justify-content: center;
+}
+.datePM span {
+  font-size: 14px;
+
+  color: #ffffff;
+  background-color: rgba(186, 173, 211, 1.0);
+
+  padding: 5px 13px 3px 13px;
+  border-radius: 15px;
+}
+
+.PMFrame {
+  display: inline-block;
+  position: relative;
+
+  width: 300px;
+  margin-bottom: 20px;
+
+  font-family: 'SCoreDream', sans-serif;
+}
+.PMFrame .ProfilePic {
+  display: inherit;
+  position: absolute;
+
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.PMFrame .Name {
+  position: absolute;
+
+  font-weight: 500;
+  font-size: 14px;
+
+  margin-top: 2px;
+  margin-left: 40px;
+}
+.PMFrame .PMContentFirst {
+  display: inherit;
+  position: inherit;
+
+  margin-top: 22px;
+  margin-left: 40px;
+  margin-bottom: 2px;
+
+  font-weight: 400;
+  font-size: 15px;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 12px 15px 10px 13px;
+  border-radius: 3px 18px 18px 3px;
+}
+.PMFrame .PMContent {
+  display: inherit;
+  position: inherit;
+
+  margin-left: 40px;
+  margin-bottom: 2px;
+
+  font-weight: 400;
+  font-size: 15px;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 10px 15px 8px 13px;
+  border-radius: 3px 18px 18px 3px;
+}
+
+/* .DateFramePM {
   margin: 1vw;
 }
 
@@ -130,4 +213,4 @@
   font-size: 0.6vw;
 
   color: #444444;
-}
+} */
