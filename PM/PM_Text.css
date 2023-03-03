@@ -194,14 +194,14 @@ body a {
   font-size: 14px;
 
   margin-top: 2px;
-  margin-left: 40px;
+  margin-left: 35px;
 }
 .PMFrame .PMContentFirst {
   display: inherit;
   position: inherit;
 
   margin-top: 22px;
-  margin-left: 40px;
+  margin-left: 35px;
   margin-bottom: 2px;
 
   font-weight: 400;
@@ -217,7 +217,7 @@ body a {
   display: inherit;
   position: inherit;
 
-  margin-left: 40px;
+  margin-left: 35px;
   margin-bottom: 2px;
 
   font-weight: 400;
@@ -233,7 +233,7 @@ body a {
   display: inherit;
   position: inherit;
 
-  margin-left: 40px;
+  margin-left: 35px;
   margin-bottom: 2px;
 
   font-weight: 400;
@@ -250,7 +250,7 @@ body a {
   display: inherit;
   position: inherit;
 
-  margin-left: 40px;
+  margin-left: 35px;
   margin-bottom: 2px;
 
   font-weight: 400;
@@ -267,6 +267,7 @@ body a {
   position: inherit;
 
   top: 17px;
+  right: 2px;
 
   font-weight: 300;
   font-size: 10px;
