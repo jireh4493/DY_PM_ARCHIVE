@@ -29,6 +29,7 @@ body a {
 
   position:fixed;
   z-index: 1;
+  -webkit-transform: translateZ(0);
 
   left: 0px;
   
@@ -38,6 +39,7 @@ body a {
 .alwaysTop .leftDirection {
   position: fixed;
   z-index: 2;
+  -webkit-transform: translateZ(0);
   
   top: 13px;
 
@@ -47,6 +49,7 @@ body a {
 .alwaysTop .chatName {  
   position: fixed;
   z-index: 2;
+  -webkit-transform: translateZ(0);
 
   top: 16px;
   left: 50%;
@@ -59,6 +62,7 @@ body a {
 .alwaysTop .menuIcon {
   position: fixed;
   z-index: 2;
+  -webkit-transform: translateZ(0);
 
   top: 13px;
   right: 10px;
@@ -70,6 +74,7 @@ body a {
 .zIndex3 {
   position: fixed;
   z-index: 1;
+  -webkit-transform: translateZ(0);
 
   width: 75%;
   left: 50%;
