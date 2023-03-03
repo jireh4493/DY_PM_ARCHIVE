@@ -1,10 +1,138 @@
 body {
-  margin-top: 20px 10px 0px 10px;
+  margin: 0px 10px 0px 10px;
 
   font-family: 'SCoreDream', sans-serif;
   font-weight: 400;
 
   background-color: #daccf8;
+}
+body ol {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+  text-align: center;
+}
+body ol li {
+  margin-bottom: 5px;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+.alwaysTop {
+  height: 50px;
+}
+.alwaysTop .background {
+  display: flex;
+  justify-content: center;
+
+  position:fixed;
+  z-index: 1;
+
+  left: 0px;
+  
+  height: 50px;
+  width: 100%;
+}
+.alwaysTop .leftDirection {
+  position: fixed;
+  z-index: 2;
+  
+  top: 13px;
+
+  height: 24px;
+  width: 24px;
+}
+.alwaysTop .chatName {  
+  position: fixed;
+  z-index: 2;
+
+  top: 16px;
+  left: 50%;
+  transform: translate(-50%);
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #444444;
+} 
+.alwaysTop .menuIcon {
+  position: fixed;
+  z-index: 2;
+
+  top: 13px;
+  right: 10px;
+
+  height: 24px;
+  width: 24px;
+}
+
+.zIndex3 {
+  position: fixed;
+  z-index: 1;
+
+  width: 75%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #c6acff;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  display: none;
+}
+.dateFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.dateFrame .selector {
+  font-weight: 400;
+  font-size: 18px;
+
+  margin-bottom: 10px;
+
+  text-align: center;
+}
+.dateFrame .year {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-weight: 300;
+}
+.dateFrame .year #Year2022 {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.dateFrame .year #Year2023 {
+  cursor: pointer;
+}
+.dateFrame .month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dateFrame .month .monthList {
+  opacity: 0;
+  cursor: pointer;
+}
+.dateFrame .date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dateFrame .date .dateSet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dateFrame .date .dateList {
+  opacity: 0;
+  cursor: pointer;
 }
 
 .datePM {
@@ -42,7 +170,6 @@ body {
   position: relative;
   
   width: 80%;
-  margin-left: 5px;
   margin-bottom: 20px;
 
   font-family: 'SCoreDream', sans-serif;
