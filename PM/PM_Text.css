@@ -1,5 +1,5 @@
 body {
-  margin: 30px;
+  margin-top: 20px 10px 0px 10px;
 
   font-family: 'SCoreDream', sans-serif;
   font-weight: 400;
@@ -12,7 +12,7 @@ body {
   justify-content: center;
 }
 .datePM span {
-  font-size: 14px;
+  font-size: 12px;
 
   color: #ffffff;
   background-color: rgba(186, 173, 211, 1.0);
@@ -21,11 +21,28 @@ body {
   border-radius: 15px;
 }
 
+.margin25 {
+  margin-right: 25%;
+}
+.margin30 {
+  margin-right: 30%;
+}
+.margin40 {
+  margin-right: 40%;
+}
+.margin50 {
+  margin-right: 50%;
+}
+.margin75 {
+  margin-right: 75%;
+}
+
 .PMFrame {
   display: inline-block;
   position: relative;
-
-  width: 300px;
+  
+  width: 80%;
+  margin-left: 5px;
   margin-bottom: 20px;
 
   font-family: 'SCoreDream', sans-serif;
@@ -61,8 +78,8 @@ body {
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 12px 15px 10px 13px;
-  border-radius: 3px 18px 18px 3px;
+  padding: 15px 15px 13px 13px;
+  border-radius: 3px 20px 20px 3px;
 }
 .PMFrame .PMContent {
   display: inherit;
@@ -77,140 +94,50 @@ body {
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 10px 15px 8px 13px;
-  border-radius: 3px 18px 18px 3px;
+  padding: 15px 15px 13px 13px;
+  border-radius: 3px 20px 20px 3px;
 }
-
-/* .DateFramePM {
-  margin: 1vw;
-}
-
-.DateFramePM .DatePM {
-  margin-left: 50%;
-  transform: translate(-50%);
-
-  font-size: 0.71vw;
-  font-weight: 400;
-
-  color: #ffffff;
-  background-color: rgba(186, 173, 211, 1.0);
-
-  padding: 0.35vw 0.9vw 0.35vw 0.9vw;
-  border-radius: 0.8vw;
-}
-
-.PMFrame {
-  display: inline-block;
-  position: relative;
-
-  width: 22.5vw;
-  margin-top: 0.3vw;
-  margin-right: 10%;
-  margin-bottom: 0.2vw;
-
-  line-height: 1.25vw;
-
-  font-family: 'SCoreDream', sans-serif;
-}
-
-.PMFrame .ProfilePic {
-  display: inherit;
-  position: absolute;
-
-  width: 2.65vw;
-  height: 2.65vw;
-
-  border-radius: 50%;
-}
-
-.PMFrame .Name {
-  display: inherit;
-  position: absolute;
-
-  margin-left: 3.2vw;
-  margin-top: 0.5vw;
-
-  font-weight: 500;
-  font-size: 0.81vw;
-}
-
-.PMFrame .PMContentFirst {
-  display: inherit;
-  position: inherit;
-
-  margin-top: 1.8vw;
-  margin-left: 3.2vw;
-  margin-bottom: 0.1vw;
-
-  font-weight: 400;
-  font-size: 0.91vw;
-
-  color: #ffffff;
-  background-color: #7846fe;
-
-  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
-  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
-}
-
-.PMFrame .PMContent {
-  display: inherit;
-  position: inherit;
-
-  margin-left: 3.2vw;
-  margin-bottom: 0.1vw;
-
-  font-weight: 400;
-  font-size: 0.91vw;
-
-  color: #ffffff;
-  background-color: #7846fe;
-
-  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
-  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
-}
-
 .PMFrame .PMContentLast {
   display: inherit;
   position: inherit;
 
-  margin-left: 3.2vw;
+  margin-left: 40px;
+  margin-bottom: 2px;
 
   font-weight: 400;
-  font-size: 0.91vw;
+  font-size: 15px;
 
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
-  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
+  padding: 15px 15px 13px 13px;
+  border-radius: 3px 20px 20px 20px;
 }
 
 .PMFrame .PMContentOnlyOne {
   display: inherit;
   position: inherit;
 
-  margin-top: 1.8vw;
-  margin-left: 3.2vw;
-  margin-bottom: 0.1vw;
+  margin-left: 40px;
+  margin-bottom: 2px;
 
   font-weight: 400;
-  font-size: 0.91vw;
+  font-size: 15px;
 
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
-  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
+  padding: 15px 15px 13px 13px;
+  border-radius: 3px 20px 20px 20px;
 }
-
 .PMFrame .Time {
   display: inherit;
   position: inherit;
 
-  top: 1vw;
+  top: 17px;
 
   font-weight: 300;
-  font-size: 0.6vw;
+  font-size: 10px;
 
   color: #444444;
-} */
+}
