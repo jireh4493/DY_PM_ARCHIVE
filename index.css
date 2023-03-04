@@ -81,7 +81,7 @@ body a {
   align-items: flex-start;
 }
 .dateFrame .selector {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
 
   margin-bottom: 10px;
@@ -133,9 +133,11 @@ footer {
   justify-content: center;
 
   margin-top: 50px;
+  color: #444444;
 }
 footer .bordertop {
   width: 90%;
+  border: none;
   border-top: 1.5px solid black;
   margin: auto;
   margin-bottom: 20px;
@@ -149,8 +151,6 @@ footer .credit {
 footer .contact {
   font-weight: 300;
   font-size: 13px;
-
-  color: #444444;
 }
 footer .contact a {
   color: #7846fe;
