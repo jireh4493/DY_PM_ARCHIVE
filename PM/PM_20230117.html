@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://webfontworld.github.io/score/SCoreDream.css" rel="stylesheet">
+    <link rel="stylesheet" href="PM_Text.css">
+
+    <script src="../Plugin/jquery-3.6.3.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../Plugin/jQuery Cookie/jquery.cookie.js"></script>
+    <script defer src="PM.js"></script>
+  </head>
+  <body>
+    <div class="alwaysTop">
+      <!--title & date selector-->
+      <img src="backgroundTop.jpg" class="background">
+      <a href="../index.html"><img src="left-chevron.png" class="leftDirection"></a>
+      <span class="chatName"><div>요니><</div></span>
+      <img src="list.png" class="menuIcon" onclick="toShowDate()">
+    </div>
+    <div class="zIndex3">
+      <div class="dateFrame">
+        <div class="year">
+          <div class="selector">Year</div>
+          <div id="Year2022" onclick="Year2022ToMonth()">2022</div>
+          <div id="Year2023" onclick="Year2023ToMonth()">2023</div>
+        </div>
+        <div class="month">
+          <div class="selector">Month</div>
+          <ol class="monthList">
+            <li id="January" onclick="JanuaryToDate()">January</li>
+            <li id="February" onclick="FebruaryToDate()">February</li>
+            <li id="March" onclick="MarchToDate()">March</li>
+            <li id="April" onclick="AprilToDate()">April</li>
+            <li id="May" onclick="MayToDate()">May</li>
+            <li id="June" onclick="JuneToDate()">June</li>
+            <li id="July" onclick="JulyToDate()">July</li>
+            <li id="August" onclick="AugustToDate()">August</li>
+            <li id="September" onclick="SeptemberToDate()">September</li>
+            <li id="October" onclick="OctoberToDate()">October</li>
+            <li id="November" onclick="NovemberToDate()">November</li>
+            <li id="December" onclick="DecemberToDate()">December</li>
+          </ol>
+        </div>
+        <div class="date">
+          <div class="selector">Date</div>
+          <div class="dateSet"> 
+            <ol class="dateList" style="padding-right: 5px;">
+              <li id="Date1" onclick="goToDate1()">1st</li>
+              <li id="Date2" onclick="goToDate2()">2nd</li>
+              <li id="Date3" onclick="goToDate3()">3rd</li>
+              <li id="Date4" onclick="goToDate4()">4th</li>
+              <li id="Date5" onclick="goToDate5()">5th</li>
+              <li id="Date6" onclick="goToDate6()">6th</li>
+              <li id="Date7" onclick="goToDate7()">7th</li>
+              <li id="Date8" onclick="goToDate8()">8th</li>
+              <li id="Date9" onclick="goToDate9()">9th</li>
+              <li id="Date10" onclick="goToDate10()">10th</li>
+              <li id="Date11" onclick="goToDate11()">11th</li>
+              <li id="Date12" onclick="goToDate12()">12th</li>
+              <li id="Date13" onclick="goToDate13()">13th</li>
+              <li id="Date14" onclick="goToDate14()">14th</li>
+              <li id="Date15" onclick="goToDate15()">15th</li>
+              <li id="Date16" onclick="goToDate16()">16th</li>
+            </ol>  
+            <ol class="dateList">
+              <li id="Date17" onclick="goToDate17()">17th</li>
+              <li id="Date18" onclick="goToDate18()">18th</li>
+              <li id="Date19" onclick="goToDate19()">19th</li>
+              <li id="Date20" onclick="goToDate20()">20th</li>
+              <li id="Date21" onclick="goToDate21()">21st</li>
+              <li id="Date22" onclick="goToDate22()">22nd</li>
+              <li id="Date23" onclick="goToDate23()">23rd</li>
+              <li id="Date24" onclick="goToDate24()">24th</li>
+              <li id="Date25" onclick="goToDate25()">25th</li>
+              <li id="Date26" onclick="goToDate26()">26th</li>
+              <li id="Date27" onclick="goToDate27()">27th</li>
+              <li id="Date28" onclick="goToDate28()">28th</li>
+              <li id="Date29" onclick="goToDate29()">29th</li>
+              <li id="Date30" onclick="goToDate30()">30th</li>
+              <li id="Date31" onclick="goToDate31()">31st</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="datePM">
+      <span onclick="toShowDate()">01.17</span>
+    </div>
+    
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst"><span class="DisplayNickname">케플리안</span>!!</span>
+      <span class="PMContentLast">굿나잇 인사 하려고 와써</span>
+      <span class="Time">00:51</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">요니는 어제 오늘 몸이 좀 안좋았어서<br>못 왔어..😢</span>
+      <span class="Time">00:51</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">약 먹구 이써!</span>
+      <span class="PMContentLast">웅 얼른 나으께</span>
+      <span class="Time">00:52</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne"><span class="DisplayNickname">케플리안</span>도 아프지 않게 잘 먹구<br>충분히 자고 해야해!</span>
+      <span class="Time">00:53</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">요니 이제 약먹고 자께</span>
+      <span class="PMContentLast">걱정해죠서ㅠ고마오</span>
+      <span class="Time">00:54</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">우웅 안녕 잘자🫶🏻🙏🏻💗</span>
+      <span class="Time">00:55</span>
+    </div>
+  </body>
+</html>

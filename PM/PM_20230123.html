@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://webfontworld.github.io/score/SCoreDream.css" rel="stylesheet">
+    <link rel="stylesheet" href="PM_Text.css">
+
+    <script src="../Plugin/jquery-3.6.3.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../Plugin/jQuery Cookie/jquery.cookie.js"></script>
+    <script defer src="PM.js"></script>
+  </head>
+  <body>
+    <div class="alwaysTop">
+      <!--title & date selector-->
+      <img src="backgroundTop.jpg" class="background">
+      <a href="../index.html"><img src="left-chevron.png" class="leftDirection"></a>
+      <span class="chatName"><div>요니><</div></span>
+      <img src="list.png" class="menuIcon" onclick="toShowDate()">
+    </div>
+    <div class="zIndex3">
+      <div class="dateFrame">
+        <div class="year">
+          <div class="selector">Year</div>
+          <div id="Year2022" onclick="Year2022ToMonth()">2022</div>
+          <div id="Year2023" onclick="Year2023ToMonth()">2023</div>
+        </div>
+        <div class="month">
+          <div class="selector">Month</div>
+          <ol class="monthList">
+            <li id="January" onclick="JanuaryToDate()">January</li>
+            <li id="February" onclick="FebruaryToDate()">February</li>
+            <li id="March" onclick="MarchToDate()">March</li>
+            <li id="April" onclick="AprilToDate()">April</li>
+            <li id="May" onclick="MayToDate()">May</li>
+            <li id="June" onclick="JuneToDate()">June</li>
+            <li id="July" onclick="JulyToDate()">July</li>
+            <li id="August" onclick="AugustToDate()">August</li>
+            <li id="September" onclick="SeptemberToDate()">September</li>
+            <li id="October" onclick="OctoberToDate()">October</li>
+            <li id="November" onclick="NovemberToDate()">November</li>
+            <li id="December" onclick="DecemberToDate()">December</li>
+          </ol>
+        </div>
+        <div class="date">
+          <div class="selector">Date</div>
+          <div class="dateSet"> 
+            <ol class="dateList" style="padding-right: 5px;">
+              <li id="Date1" onclick="goToDate1()">1st</li>
+              <li id="Date2" onclick="goToDate2()">2nd</li>
+              <li id="Date3" onclick="goToDate3()">3rd</li>
+              <li id="Date4" onclick="goToDate4()">4th</li>
+              <li id="Date5" onclick="goToDate5()">5th</li>
+              <li id="Date6" onclick="goToDate6()">6th</li>
+              <li id="Date7" onclick="goToDate7()">7th</li>
+              <li id="Date8" onclick="goToDate8()">8th</li>
+              <li id="Date9" onclick="goToDate9()">9th</li>
+              <li id="Date10" onclick="goToDate10()">10th</li>
+              <li id="Date11" onclick="goToDate11()">11th</li>
+              <li id="Date12" onclick="goToDate12()">12th</li>
+              <li id="Date13" onclick="goToDate13()">13th</li>
+              <li id="Date14" onclick="goToDate14()">14th</li>
+              <li id="Date15" onclick="goToDate15()">15th</li>
+              <li id="Date16" onclick="goToDate16()">16th</li>
+            </ol>  
+            <ol class="dateList">
+              <li id="Date17" onclick="goToDate17()">17th</li>
+              <li id="Date18" onclick="goToDate18()">18th</li>
+              <li id="Date19" onclick="goToDate19()">19th</li>
+              <li id="Date20" onclick="goToDate20()">20th</li>
+              <li id="Date21" onclick="goToDate21()">21st</li>
+              <li id="Date22" onclick="goToDate22()">22nd</li>
+              <li id="Date23" onclick="goToDate23()">23rd</li>
+              <li id="Date24" onclick="goToDate24()">24th</li>
+              <li id="Date25" onclick="goToDate25()">25th</li>
+              <li id="Date26" onclick="goToDate26()">26th</li>
+              <li id="Date27" onclick="goToDate27()">27th</li>
+              <li id="Date28" onclick="goToDate28()">28th</li>
+              <li id="Date29" onclick="goToDate29()">29th</li>
+              <li id="Date30" onclick="goToDate30()">30th</li>
+              <li id="Date31" onclick="goToDate31()">31st</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="datePM">
+      <span onclick="toShowDate()">01.23</span>
+    </div>
+    
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst"><span class="DisplayNickname">케플리안</span>~~</span>
+      <span class="PhotoFrame" style="height: 140px;">
+        <img src="../MEDIA/804685.jpg" style="width: 140px; height: 140px; object-fit: cover; border-radius: 3px 0px 0px 20px; margin-right: -2px;">
+        <img src="../MEDIA/804686.jpg" style="width: 140px; height: 140px; object-fit: cover; border-radius: 0px 20px 20px 0px;">
+      </span>
+      <span class="Time" style="top: 0px;">18:23</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">오때 뽀로로 요닝</span>
+      <span class="PMContent">군밤장수?!??</span>
+      <span class="PMContent">맞아 비슷하넹 ㅎㅎㅎㅎ</span>
+      <span class="PMContent">요니 어제</span>
+      <span class="PMContentLast">친가댁도 가고 외가댁도 가고</span>
+      <span class="Time">18:24</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">오늘은 엄마랑 영화 봐쏘</span>
+      <span class="PMContentLast">구냥 아바타 2 봐써</span>
+      <span class="Time">18:25</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">엄마는 이미 두번이나 본 영화인데 또<br>봐도 재밌다 하셔성</span>
+      <span class="PMContent">봐써</span>
+      <span class="PMContent">진짜 재밌더라</span>
+      <span class="PMContent">어제 떡국 먹어찡</span>
+      <span class="PMContentLast">이제 찐 스물한살 ㅎㅎㅎ</span>
+      <span class="Time">18:26</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">한그릇 먹어떠</span>
+      <span class="PMContentLast">웅 만두 안넣어써 ㅎㅋㅎㅋ</span>
+      <span class="Time">18:27</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">아니 나 어제</span>
+      <span class="PMContent">아침 한 8시에는</span>
+      <span class="PMContent">출발했어야 하거든?</span>
+      <span class="PMContent">숙소에서 친가댁으로</span>
+      <span class="PMContent">분명히 알람을</span>
+      <span class="PMContent">맞췄고</span>
+      <span class="PMContent">난 알람 거의 못들은적 없는 사람인데</span>
+      <span class="PMContentLast">어제 딱 못들은거양</span>
+      <span class="Time">18:28</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">그래서 깨고 나서 왜 아직도<br>알람이 안울렸지</span> <!--렸/럈-->
+      <span class="PMContent">했는데 10시..</span>
+      <span class="PMContent">그 날 스케줄 늦게끝나서 4시에<br>잤어ㅠ</span>
+      <span class="PMContent">그리구 부재중 전화 30통..</span>
+      <span class="PMContentLast">전화 엄마 아빠한테 ..</span>
+      <span class="Time">18:29</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">혼나진 않았는데</span>
+      <span class="PMContent">제사를 못지냈어</span>
+      <span class="PMContent">ㅎㅋㅎㅋㅎㅋㅎㅋ ㅠ</span>
+      <span class="PMContent">나 원래 알람 진짜 잘들어</span>
+      <span class="PMContent">근데 어제는 진짜</span>
+      <span class="PMContent">못 들어써..</span>
+      <span class="PMContentLast">그래서 어제 하루종일 피곤하진<br>않더라ㅋㅋㅋㅎㅎㅋㅎㅋㅋ</span>  <!--라ㅋ/랔-->
+      <span class="Time">18:30</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">웅 4에 잤는데도 10시에<br>일어났더니 괜찮던뎅!</span>
+      <span class="PMContent">깜짝 놀라서</span>
+      <span class="PMContentLast">잠이 ㄷㅏ 깼아봐</span>
+      <span class="Time">18:32</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">일어나자마자 엄마한테 전화걸어서</span>
+      <span class="PMContent">망 했 다 ..</span>
+      <span class="PMContent">이랬어</span>
+      <span class="PMContent">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ<br>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
+      <span class="PMContentLast">숙소에 대신 깨워줄 사람이 없었냐궁?</span>
+      <span class="Time">18:33</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">누가 7시에<br>일어나ㅋㅎㅋㅎㅋㅎㅋㅋㅋㅋㅎㅋㅋㅎ<br>ㅋㅎ</span> <!--나ㅋ/낰 -> <br> 변화-->
+      <span class="PMContent">다 기절..</span>
+      <span class="PMContent">엄마는 스케줄 늦게 끝난거<br>알고 계셨어서</span>
+      <span class="PMContentLast">자고 있는줄 알았댕</span>
+      <span class="Time">18:34</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">나 저녁? 안먹었는데 뭐 이것저것 많이<br>모거서 배불렁</span>
+      <span class="PMContent">저메추?</span>
+      <span class="PMContentLast">제육볶음 !</span>
+      <span class="Time">18:35</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">웅 요니 제육 좋아행</span>
+      <span class="PMContent">국물류 추천?</span>
+      <span class="PMContent">흠</span>
+      <span class="PMContent">된찌</span>
+      <span class="PMContent">왜냐면 내가 점심에 된찌 머겄거등</span>
+      <span class="PMContentLast">요니는 점심에</span>
+      <span class="Time">18:36</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">불고기쌈밥정식이랑 된찌 먹어써</span>
+      <span class="PMContent">해물된찌가 좋냐고<br>차돌된찌가 좋냐고??</span>
+      <span class="PMContent">이걸 어떻게 골라!!</span>
+      <span class="PMContentLast">난 차돌!</span>
+      <span class="Time">18:37</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">하지만 해묻로 좋음</span>
+      <span class="PMContentLast">꽃게 들어있는 된찌 마시써</span>
+      <span class="Time">18:38</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">다들 모하구 이써</span>
+      <span class="Time">18:39</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">다들 잘 쉬고 있구만</span>
+      <span class="PMContentLast">요니는 누워있어</span>
+      <span class="Time">18:40</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">아 나 웹툰 추천 하나 해줄게</span>
+      <span class="PMContent">진짜 레전드</span>
+      <span class="PMContent">엄마한테 추천했는데 엄마도 하루만에<br>76화까지 봤대 쿠키도 구워서</span>
+      <span class="PMContentLast">똑 닮은 딸</span>
+      <span class="Time">18:41</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">진짜 진짜 재밌규 하루종일 생각나</span>
+      <span class="PMContentLast">범죄 스릴러 웹툰이앙</span>
+      <span class="Time">18:42</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">웅 제목이 똑 닮은 딸 이양</span>
+      <span class="PMContentLast">후.. 꼭 봐ㅏ</span>
+      <span class="Time">18:43</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">자기전에 본다구?</span>
+      <span class="PMContent">그럼 잠 못 잘걸</span>
+      <span class="PMContent">71화까지 있는데</span>
+      <span class="PMContent">나 하루만에 다 봤어..</span>
+      <span class="PMContent">하루종일 생각나</span>
+      <span class="PMContent">다른 웹툰 추천???</span>
+      <span class="PMContentLast">아홉수 우리들</span>
+      <span class="Time">18:45</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">이건 스릴러 아니구</span>
+      <span class="PMContentLast">그냥 지극히 현실적인 내용..?</span>
+      <span class="Time">18:46</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">판타지??</span>
+      <span class="PMContent">판타지보단</span>
+      <span class="PMContent">범죄 스릴러 좋아행</span>
+      <span class="PMContentLast">요즘 드라마는 보는거 없엉 ㅠ</span>
+      <span class="Time">18:48</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">아 그리구 어제는 집에서 영화 봤는데</span>
+      <span class="PMContent">올빼미 봤어!</span>
+      <span class="PMContentLast">재밌더랑</span>
+      <span class="Time">18:50</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">아냐 아바타는 오늘 봐서 어제 두편<br>몰어본거 아니얌 ㅎㅋ</span>
+      <span class="Time">18:51</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">3시간 동안 하나도 안질해서</span>
+      <span class="PMContentLast">볼만 해써</span>
+      <span class="Time">18:52</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">웅 카라멜 팝콘 먹어써 오늘</span>
+      <span class="PMContent">영화 시작하기전에 3분의 2 다 먹음</span>
+      <span class="PMContentLast">목소리 듣고 싶다궁?</span>
+      <span class="Time">18:53</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">voice</span>
+      <span class="PMContent">헤 선물</span>
+      <span class="PMContent">요니 이제 가 볼겡 이제 좀 쉬어야<br>게써ㅓㅓㅓ</span>
+      <span class="PMContentLast">다들 남은 연휴 잘 쉬고!!</span>
+      <span class="Time">18:54</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">똑 닮은 딸 꼭 보삼</span>
+      <span class="PMContentLast">앙뇽💗🫶🏻💗🫶🏻</span>
+      <span class="Time">18:55</span>
+    </div>
+  </body>
+</html>
