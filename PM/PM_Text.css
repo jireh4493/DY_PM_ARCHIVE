@@ -154,28 +154,6 @@ body a {
   border-radius: 15px;
 }
 
-.margin10 {
-  margin-right: 10%;
-}
-.margin20 {
-  margin-right: 20%;
-}
-.margin30 {
-  margin-right: 30%;
-}
-.margin40 {
-  margin-right: 40%;
-}
-.margin50 {
-  margin-right: 50%;
-}
-.margin60 {
-  margin-right: 60%;
-}
-.margin70 {
-  margin-right: 70%;
-}
-
 .PMFrame {
   display: inline-block;
   position: relative;
@@ -183,7 +161,7 @@ body a {
   width: 100%;
   margin-bottom: 20px;
 
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
 
   font-family: 'SCoreDream', sans-serif;

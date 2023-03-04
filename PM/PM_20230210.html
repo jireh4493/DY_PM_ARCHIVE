@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://webfontworld.github.io/score/SCoreDream.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine" />
+    <link rel="stylesheet" href="PM_Text.css">
+
+    <script src="../Plugin/jquery-3.6.3.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../Plugin/jQuery Cookie/jquery.cookie.js"></script>
+    <script defer src="PM.js"></script>
+  </head>
+  <body>
+    <div class="alwaysTop">
+      <!--title & date selector-->
+      <img src="backgroundTop.jpg" class="background">
+      <a href="../index.html"><img src="left-chevron.png" class="leftDirection"></a>
+      <span class="chatName"><div>요니><</div></span>
+      <img src="list.png" class="menuIcon" onclick="toShowDate()">
+    </div>
+    <div class="zIndex3">
+      <div class="dateFrame">
+        <div class="year">
+          <div class="selector">Year</div>
+          <div id="Year2022" onclick="Year2022ToMonth()">2022</div>
+          <div id="Year2023" onclick="Year2023ToMonth()">2023</div>
+        </div>
+        <div class="month">
+          <div class="selector">Month</div>
+          <ol class="monthList">
+            <li id="January" onclick="JanuaryToDate()">January</li>
+            <li id="February" onclick="FebruaryToDate()">February</li>
+            <li id="March" onclick="MarchToDate()">March</li>
+            <li id="April" onclick="AprilToDate()">April</li>
+            <li id="May" onclick="MayToDate()">May</li>
+            <li id="June" onclick="JuneToDate()">June</li>
+            <li id="July" onclick="JulyToDate()">July</li>
+            <li id="August" onclick="AugustToDate()">August</li>
+            <li id="September" onclick="SeptemberToDate()">September</li>
+            <li id="October" onclick="OctoberToDate()">October</li>
+            <li id="November" onclick="NovemberToDate()">November</li>
+            <li id="December" onclick="DecemberToDate()">December</li>
+          </ol>
+        </div>
+        <div class="date">
+          <div class="selector">Date</div>
+          <div class="dateSet"> 
+            <ol class="dateList" style="padding-right: 5px;">
+              <li id="Date1" onclick="goToDate1()">1st</li>
+              <li id="Date2" onclick="goToDate2()">2nd</li>
+              <li id="Date3" onclick="goToDate3()">3rd</li>
+              <li id="Date4" onclick="goToDate4()">4th</li>
+              <li id="Date5" onclick="goToDate5()">5th</li>
+              <li id="Date6" onclick="goToDate6()">6th</li>
+              <li id="Date7" onclick="goToDate7()">7th</li>
+              <li id="Date8" onclick="goToDate8()">8th</li>
+              <li id="Date9" onclick="goToDate9()">9th</li>
+              <li id="Date10" onclick="goToDate10()">10th</li>
+              <li id="Date11" onclick="goToDate11()">11th</li>
+              <li id="Date12" onclick="goToDate12()">12th</li>
+              <li id="Date13" onclick="goToDate13()">13th</li>
+              <li id="Date14" onclick="goToDate14()">14th</li>
+              <li id="Date15" onclick="goToDate15()">15th</li>
+              <li id="Date16" onclick="goToDate16()">16th</li>
+            </ol>  
+            <ol class="dateList">
+              <li id="Date17" onclick="goToDate17()">17th</li>
+              <li id="Date18" onclick="goToDate18()">18th</li>
+              <li id="Date19" onclick="goToDate19()">19th</li>
+              <li id="Date20" onclick="goToDate20()">20th</li>
+              <li id="Date21" onclick="goToDate21()">21st</li>
+              <li id="Date22" onclick="goToDate22()">22nd</li>
+              <li id="Date23" onclick="goToDate23()">23rd</li>
+              <li id="Date24" onclick="goToDate24()">24th</li>
+              <li id="Date25" onclick="goToDate25()">25th</li>
+              <li id="Date26" onclick="goToDate26()">26th</li>
+              <li id="Date27" onclick="goToDate27()">27th</li>
+              <li id="Date28" onclick="goToDate28()">28th</li>
+              <li id="Date29" onclick="goToDate29()">29th</li>
+              <li id="Date30" onclick="goToDate30()">30th</li>
+              <li id="Date31" onclick="goToDate31()">31st</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="datePM">
+      <span onclick="toShowDate()">02.12</span>
+    </div>
+    
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst"><span class="DisplayNickname">케플리안</span>😎</span>
+      <span class="PMContentLast">요니 와떠어어어어어어</span>
+      <span class="Time">21:45</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">마자 오늘 컨포 떴어 ! 귀욥징</span>
+      <span class="Time">:</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">나 낼모레 네일 바꾼당</span>   <!--댱/당-->
+      <span class="PMContentLast">오래 앉아있으면 궁디 아프니까 그냥<br>올 화이트 하려궁 ..^^</span>
+      <span class="Time">21:47</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">자주 바꾸는 것 같다규?!?</span>
+      <span class="PMContent">한달 넘었을걸!</span>
+      <span class="PMContent">자석네일은 아쉽지만 빠빠이ㅜ</span>
+      <span class="PMContent">시럽네일로 하라구? 근데 그거</span>
+      <span class="PMContent">몬가</span>
+      <span class="PMContent">시간 지나면</span>
+      <span class="PMContentLast">누래지는 기분이야 ! ㅇㅅㅇ</span>
+      <span class="Time">21:48</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">구러네 나 딱 1년전에 졸업했었네</span>
+      <span class="PMContent">애기였다 ㅋ</span>
+      <span class="PMContent">막이래</span>
+      <span class="PMContentLast">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ<br>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
+      <span class="Time">21:49</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">나 이제 애기 아님</span>
+      <span class="PMContent">이제는 진짜 아님</span>
+      <span class="PMContentLast">진짜 진짜 아님</span>
+      <span class="Time">21:50</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">어제 서공예 졸업식 했던데</span>
+      <span class="PMContent">!</span>
+      <span class="PMContent">라잇썸 유정이랑 위클리 재희한ㅌ<br>축하한다구 해죠써~~</span>
+      <span class="PMContentLast">웅 애들 다 마스크 벗고 사진찍구<br>그래서 부러워써</span>
+      <span class="Time">21:51</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">히에한테도 축하한다고 해줬지!! 내가<br>제일 먼저 해줬을걸!</span>
+      <span class="PMContent">교복 아직 숙소에 있냐구?!<br>본가에 있징~~</span>
+      <span class="PMContentLast">휴닝카이 선배님보다 먼저 해줬냐고?</span>
+      <span class="Time">21:52</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">그건 당연히 아니지 않을까 ....</span>
+      <span class="PMContent">교복팬싸?!?!? 재밌겠다</span>
+      <span class="PMContent">졸업식때 뭐 목어야<br>한다고 생각하냐고?</span>
+      <span class="PMContent">난 그냥</span>
+      <span class="PMContentLast">'맛있는 거'</span>
+      <span class="Time">21:53</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">뭔들 맛있으면 되</span>
+      <span class="PMContent">됨</span>
+      <span class="PMContentLast">아맞다 웨이크원 앞 버정에 요니 생일<br>광고 있어써!!!!!</span>
+      <span class="Time">21:54</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">고마워요오오오오💗💗💗🥺🥺<br>🥺🥺🥺🥺</span>
+      <span class="PMContentLast">봐찌이잉 멀리서 밖에 못봤지만 기회<br>되면 가까이 가서 봐야징</span>
+      <span class="Time">21:55</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">요니가</span>
+      <span class="PMContentLast">추천해주고 싶은 노래가 하나 이써</span>
+      <span class="Time">21:57</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">내가 좋아하는 가수분이고<br>어제인가?? 노래 나와써</span>
+      <span class="PMContent">40 - 아이스크림 사세요</span>
+      <span class="PMContent">오늘은 미리 고민하고 프메한거라</span>
+      <span class="PMContentLast">금방 보냈음 ㅎㅎㅎㅎㅎ</span>
+      <span class="Time">21:58</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">40이 가수분 이름이야!</span>
+      <span class="Time">21:59</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">다들 드러방</span>
+      <span class="PMContent">그</span>
+      <span class="PMContent">Seoul city~~~~</span>
+      <span class="PMContentLast">부분이랑</span>
+      <span class="Time">22:01</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">피유~~</span>
+      <span class="PMContent">부분이 넘 좋아</span>
+      <span class="PMContent">혹시 내가 추천해줬던 노래중에</span>
+      <span class="PMContentLast">젤 꽂혔던 노래가 모야<br><span class="DisplayNickname">케플리안</span>!?</span>
+      <span class="Time">22:02</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">요노추 믿을만 한가요? 😎</span>
+      <span class="Time">22:03</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">헤헤 고마오</span>
+      <span class="PMContentLast">요니 이제 퇴근해또</span>
+      <span class="Time">22:04</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentFirst">푹 쉬다가</span>
+      <span class="PMContent">낼 시상식 무대 뿌시께</span>
+      <span class="PMContentLast">웅웅 밥 머거떠ㅋㅋㅋㅋ</span>   <!--떠ㅋ/떸-->
+      <span class="Time">22:05</span>
+    </div>
+    <div class="PMFrame">
+      <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
+      <div class="Name">요니><</div>
+      <span class="PMContentOnlyOne">빠이이이💗</span>
+      <span class="Time">22:06</span>
+    </div>
+  </body>
+</html>
