@@ -859,7 +859,7 @@ function goToDate1() {
       location.href = "#"
     }
     else {
-      location.href = "PM/PM_20230201.html"
+      location.href = "PM_20230201.html"
     }
   }
 }
