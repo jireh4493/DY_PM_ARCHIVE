@@ -251,11 +251,18 @@ body a {
 
   color: #444444;
 }
-.PMFrame .PhotoFrame {
+.PMFrame .PhotoFrameFirst {
   display: inherit;
   position: inherit;
 
   margin-top: 19px;
+  margin-left: 35px;
+  margin-bottom: 2px;
+}
+.PMFrame .PhotoFrame {
+  display: inherit;
+  position: inherit;
+
   margin-left: 35px;
   margin-bottom: 2px;
 }
