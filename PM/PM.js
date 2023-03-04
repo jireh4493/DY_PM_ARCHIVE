@@ -23,9 +23,25 @@ function toShowDate() {
     $('.zIndex3').css("display", "none");
   }
 }
-function toCloseDate() {
-  $('.zIndex3').css("display", "none");
+
+var PMFrameMargin = $('.PMFrame').outerWidth();
+var PMContentFirst = document.getElementsByClassName('PMContentFirst');
+var PMContent = document.getElementsByClassName('PMContent');
+
+for (var i = 0; PMContentFirst.length > i; i++) {
+  var PMmargin = PMFrameMargin - $($(".PMContentFirst")[i]).outerWidth() - 55;
+  var PMmargin = PMmargin + "px";
+
+  $($('.PMContentFirst')[i]).css('margin-right', PMmargin);
 }
+for (var i = 0; PMContent.length > i; i++) {
+  var PMmargin = PMFrameMargin - $($(".PMContent")[i]).outerWidth() - 55;
+  var PMmargin = PMmargin + "px";
+
+  $($('.PMContent')[i]).css('margin-right', PMmargin);
+}
+
+
 
 function resetMonth() {
   $("#January").css("opacity", "0");

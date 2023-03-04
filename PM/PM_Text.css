@@ -183,6 +183,9 @@ body a {
   width: 100%;
   margin-bottom: 20px;
 
+  font-weight: 400;
+  font-size: 14px;
+
   font-family: 'SCoreDream', sans-serif;
 }
 .PMFrame .ProfilePic {
@@ -210,9 +213,6 @@ body a {
   margin-left: 35px;
   margin-bottom: 2px;
 
-  font-weight: 400;
-  font-size: 15px;
-
   color: #ffffff;
   background-color: #7846fe;
 
@@ -226,9 +226,6 @@ body a {
   margin-left: 35px;
   margin-bottom: 2px;
 
-  font-weight: 400;
-  font-size: 15px;
-
   color: #ffffff;
   background-color: #7846fe;
 
@@ -241,9 +238,6 @@ body a {
 
   margin-left: 35px;
   margin-bottom: 2px;
-
-  font-weight: 400;
-  font-size: 15px;
 
   color: #ffffff;
   background-color: #7846fe;
@@ -259,9 +253,6 @@ body a {
   margin-top: 22px;
   margin-left: 35px;
   margin-bottom: 2px;
-
-  font-weight: 400;
-  font-size: 15px;
 
   color: #ffffff;
   background-color: #7846fe;
