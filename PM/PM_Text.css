@@ -276,7 +276,7 @@ body a {
   bottom: -20px;
 
   width: 100%;
-  height: 50px;
+  height: 60px;
 
   display: flex;
   flex-direction: row;
@@ -288,16 +288,23 @@ body a {
 .sendFrame .sendInput {
   flex-grow: 1;
   padding-left: 10px;
+
+  margin-right: 15px;
 }
 .sendFrame .sendInput input {
   padding: 0px;
+  padding-left: 10px;
   border: 0px;
   border: 1px solid black;
   border-radius: 20px;
   width: 100%;
 
-  color: black;
+  color: #444444;
   background-color: #fff;
+
+  font-family: 'SCoreDream', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
 }
 .sendFrame .sendButton {  
   height: 20px;
