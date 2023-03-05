@@ -31,6 +31,8 @@ function toShowDate() {
 var PMFrameMargin = $('.PMFrame').outerWidth();
 var PMContentFirst = document.getElementsByClassName('PMContentFirst');
 var PMContent = document.getElementsByClassName('PMContent');
+var PhotoFrameFirst = document.getElementsByClassName('PhotoFrameFirst');
+var PhotoFrame = document.getElementsByClassName('PhotoFrame');
 
 for (var i = 0; PMContentFirst.length > i; i++) {
   var PMmargin = PMFrameMargin - $($(".PMContentFirst")[i]).outerWidth() - 55;
@@ -44,8 +46,18 @@ for (var i = 0; PMContent.length > i; i++) {
 
   $($('.PMContent')[i]).css('margin-right', PMmargin);
 }
+for (var i = 0; PhotoFrameFirst.length > i; i++) {
+  var PMmargin = PMFrameMargin - $($(".PhotoFrameFirst")[i]).outerWidth() - 55;
+  var PMmargin = PMmargin + "px";
 
+  $($('.PhotoFrameFirst')[i]).css('margin-right', PMmargin);
+}
+for (var i = 0; PhotoFrame.length > i; i++) {
+  var PMmargin = PMFrameMargin - $($(".PhotoFrame")[i]).outerWidth() - 55;
+  var PMmargin = PMmargin + "px";
 
+  $($('.PhotoFrame')[i]).css('margin-right', PMmargin);
+}
 
 function resetMonth() {
   $("#January").css("opacity", "0");
