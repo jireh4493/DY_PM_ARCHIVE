@@ -318,9 +318,10 @@
       <span class="PMContent">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
       <span class="PMContent">방금 외쳤어</span>
       <span class="PMContent">고마워</span>
-      <span class="PhotoFrame"><audio controls ><source src="../MEDIA/807874.wav"></audio></span>
-      <span class="PhotoFrame"><audio controls style="background-color: #7846fe; padding: 15px 15px 13px 13px; border-radius: 3px 20px 20px 20px; outline: none;"></audio></span>
-      <span class="PMContentLast">voice</span>
+      <span class="PMContentLast">
+        <img src="play.png" id="playPause" onclick="playVoice20230126()" style="width: 12px; margin-right: 10px;">
+        <span>0:07</span>
+      </span>
       <span class="Time">21:42</span>
     </div>
     <div class="PMFrame">
@@ -346,5 +347,18 @@
       <div class="sendInput"><input type="text" style="height: 30px;" id="sendInputValue"></div>
       <div class="sendButton" style="height: 20px;"><img src="send.png" style="width: 20px; height: 20px;"></div>
     </div>
+
+    <script>
+      var audio = new Audio("../MEDIA/807874.wav");
+      audio.load();
+      audio.volume = 1;
+      
+      function playVoice20230126() {
+        audio.play();
+        $('#playPause').attr('src', 'pause.png')
+
+        setTimeout(() => $('#playPause').attr('src', 'play.png'), 8000);
+      }
+    </script>
   </body>
 </html>
