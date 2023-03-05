@@ -18,9 +18,13 @@ else {
 function toShowDate() {
   if ($('.zIndex3').css("display") == "none") {
     $('.zIndex3').css("display", "block");
+    $('.menuIcon').attr('src', 'close.png');
+    $('.menuIcon').css({width: '15px', height: '15px', top: '18px', right: '18px'});
   }
   else if ($('.zIndex3').css("display") == "block") {
     $('.zIndex3').css("display", "none");
+    $('.menuIcon').attr('src', 'list.png');
+    $('.menuIcon').css({width: '24px', height: '24px', top: '13px', right: '15px'});
   }
 }
 

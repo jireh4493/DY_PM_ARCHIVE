@@ -11,6 +11,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="../Plugin/jQuery Cookie/jquery.cookie.js"></script>
     <script defer src="PM.js"></script>
+    <script defer src="sendInputValueRandom.js"></script>
   </head>
   <body>
     <div class="alwaysTop">
@@ -88,7 +89,7 @@
     </div>
 
     <div class="datePM">
-      <span onclick="toShowDate()">2023.02.15</span>
+      <span onclick="toShowDate()">02.15</span>
     </div>
     
     <div class="PMFrame">
@@ -384,6 +385,12 @@
       <span class="PMContent">앙녕</span>
       <span class="PMContentLast">굿나잇🌙🙏🏻💗🫶🏻</span>
       <span class="Time">22:57</span>
+    </div>
+    <div style="margin-bottom: 40px;"></div>
+
+    <div class="sendFrame" style="display: flex; flex-direction: row;">
+      <div class="sendInput"><input type="text" style="height: 30px;" id="sendInputValue"></div>
+      <div class="sendButton" style="height: 20px;"><img src="send.png" style="width: 20px; height: 20px;"></div>
     </div>
   </body>
 </html>
