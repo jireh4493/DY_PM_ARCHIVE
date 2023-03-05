@@ -338,7 +338,10 @@
     <div class="PMFrame">
       <img src="IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
       <div class="Name">요니><</div>
-      <span class="PMContentFirst">voice</span>
+      <span class="PMContentFirst">
+        <img src="play.png" id="playPause" onclick="playVoice20230123()" style="width: 12px; margin-right: 10px;">
+        <span>0:03</span>
+      </span>
       <span class="PMContent">헤 선물</span>
       <span class="PMContent">요니 이제 가 볼겡 이제 좀 쉬어야<br>게써ㅓㅓㅓ</span>
       <span class="PMContentLast">다들 남은 연휴 잘 쉬고!!</span>
@@ -357,5 +360,18 @@
       <div class="sendInput"><input type="text" style="height: 30px;" id="sendInputValue"></div>
       <div class="sendButton" style="height: 20px;"><img src="send.png" style="width: 20px; height: 20px;"></div>
     </div>
+
+    <script>
+      var audio = new Audio("../MEDIA/804703.wav");
+      audio.load();
+      audio.volume = 1;
+      
+      function playVoice20230123() {
+        audio.play();
+        $('#playPause').attr('src', 'pause.png')
+
+        setTimeout(() => $('#playPause').attr('src', 'play.png'), 3000);
+      }
+    </script>
   </body>
 </html>
