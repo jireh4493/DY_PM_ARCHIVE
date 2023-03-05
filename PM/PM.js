@@ -29,31 +29,43 @@ function toShowDate() {
 }
 
 var PMFrameMargin = $('.PMFrame').outerWidth();
+var PMFrameWidth = PMFrameMargin - 20;
+var PMFrameWidth = PMFrameWidth + "px";
+
+var PMFrame = document.getElementsByClassName('PMFrame');
+
+for (var i = 0; PMFrame.length > i; i++) {
+  $($('.PMFrame')[i]).css('width', PMFrameWidth);
+}
+
+
 var PMContentFirst = document.getElementsByClassName('PMContentFirst');
 var PMContent = document.getElementsByClassName('PMContent');
 var PhotoFrameFirst = document.getElementsByClassName('PhotoFrameFirst');
 var PhotoFrame = document.getElementsByClassName('PhotoFrame');
 
+$('.PMFrame').css('width')
+
 for (var i = 0; PMContentFirst.length > i; i++) {
-  var PMmargin = PMFrameMargin - $($(".PMContentFirst")[i]).outerWidth() - 55;
+  var PMmargin = PMFrameMargin - $($(".PMContentFirst")[i]).outerWidth() - 70;
   var PMmargin = PMmargin + "px";
 
   $($('.PMContentFirst')[i]).css('margin-right', PMmargin);
 }
 for (var i = 0; PMContent.length > i; i++) {
-  var PMmargin = PMFrameMargin - $($(".PMContent")[i]).outerWidth() - 55;
+  var PMmargin = PMFrameMargin - $($(".PMContent")[i]).outerWidth() - 70;
   var PMmargin = PMmargin + "px";
 
   $($('.PMContent')[i]).css('margin-right', PMmargin);
 }
 for (var i = 0; PhotoFrameFirst.length > i; i++) {
-  var PMmargin = PMFrameMargin - $($(".PhotoFrameFirst")[i]).outerWidth() - 55;
+  var PMmargin = PMFrameMargin - $($(".PhotoFrameFirst")[i]).outerWidth() - 70;
   var PMmargin = PMmargin + "px";
 
   $($('.PhotoFrameFirst')[i]).css('margin-right', PMmargin);
 }
 for (var i = 0; PhotoFrame.length > i; i++) {
-  var PMmargin = PMFrameMargin - $($(".PhotoFrame")[i]).outerWidth() - 55;
+  var PMmargin = PMFrameMargin - $($(".PhotoFrame")[i]).outerWidth() - 70;
   var PMmargin = PMmargin + "px";
 
   $($('.PhotoFrame')[i]).css('margin-right', PMmargin);

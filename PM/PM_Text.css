@@ -165,6 +165,7 @@ body a {
   width: 100%;
   margin-bottom: 20px;
   margin-left: 10px;
+  margin-right: 10px;
 
   font-weight: 500;
   font-size: 14px;
@@ -264,6 +265,13 @@ body a {
   margin-bottom: 2px;
 }
 .PMFrame .PhotoFrame {
+  display: inherit;
+  position: inherit;
+
+  margin-left: 35px;
+  margin-bottom: 2px;
+}
+.PMFrame .PhotoFrameLast {
   display: inherit;
   position: inherit;
 
