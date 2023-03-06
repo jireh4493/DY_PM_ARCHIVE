@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://webfontworld.github.io/score/SCoreDream.css" rel="stylesheet">
+    <link rel="stylesheet" href="PM_Text.css">
+
+    <script src="../Plugin/jquery-3.6.3.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../Plugin/jQuery Cookie/jquery.cookie.js"></script>
+    <script defer src="PM.js"></script>
+    <script defer src="sendInputValueRandom.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PX87EYYQGR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PX87EYYQGR');
+    </script>
+  </head>
+  <body>
+    <div class="alwaysTop">
+      <!--title & date selector-->
+      <img src="backgroundTop.jpg" class="background">
+      <a href="../index.html"><img src="left-chevron.png" class="leftDirection"></a>
+      <span class="chatName"><div>요니><</div></span>
+      <img src="list.png" class="menuIcon" onclick="toShowDate()">
+    </div>
+    <div class="zIndex3">
+      <div class="dateFrame">
+        <div class="year">
+          <div class="selector">Year</div>
+          <div id="Year2022" onclick="Year2022ToMonth()">2022</div>
+          <div id="Year2023" onclick="Year2023ToMonth()">2023</div>
+        </div>
+        <div class="month">
+          <div class="selector">Month</div>
+          <ol class="monthList">
+            <li id="January" onclick="JanuaryToDate()">January</li>
+            <li id="February" onclick="FebruaryToDate()">February</li>
+            <li id="March" onclick="MarchToDate()">March</li>
+            <li id="April" onclick="AprilToDate()">April</li>
+            <li id="May" onclick="MayToDate()">May</li>
+            <li id="June" onclick="JuneToDate()">June</li>
+            <li id="July" onclick="JulyToDate()">July</li>
+            <li id="August" onclick="AugustToDate()">August</li>
+            <li id="September" onclick="SeptemberToDate()">September</li>
+            <li id="October" onclick="OctoberToDate()">October</li>
+            <li id="November" onclick="NovemberToDate()">November</li>
+            <li id="December" onclick="DecemberToDate()">December</li>
+          </ol>
+        </div>
+        <div class="date">
+          <div class="selector">Date</div>
+          <div class="dateSet"> 
+            <ol class="dateList" style="padding-right: 5px;">
+              <li id="Date1" onclick="goToDate1()">1st</li>
+              <li id="Date2" onclick="goToDate2()">2nd</li>
+              <li id="Date3" onclick="goToDate3()">3rd</li>
+              <li id="Date4" onclick="goToDate4()">4th</li>
+              <li id="Date5" onclick="goToDate5()">5th</li>
+              <li id="Date6" onclick="goToDate6()">6th</li>
+              <li id="Date7" onclick="goToDate7()">7th</li>
+              <li id="Date8" onclick="goToDate8()">8th</li>
+              <li id="Date9" onclick="goToDate9()">9th</li>
+              <li id="Date10" onclick="goToDate10()">10th</li>
+              <li id="Date11" onclick="goToDate11()">11th</li>
+              <li id="Date12" onclick="goToDate12()">12th</li>
+              <li id="Date13" onclick="goToDate13()">13th</li>
+              <li id="Date14" onclick="goToDate14()">14th</li>
+              <li id="Date15" onclick="goToDate15()">15th</li>
+              <li id="Date16" onclick="goToDate16()">16th</li>
+            </ol>  
+            <ol class="dateList">
+              <li id="Date17" onclick="goToDate17()">17th</li>
+              <li id="Date18" onclick="goToDate18()">18th</li>
+              <li id="Date19" onclick="goToDate19()">19th</li>
+              <li id="Date20" onclick="goToDate20()">20th</li>
+              <li id="Date21" onclick="goToDate21()">21st</li>
+              <li id="Date22" onclick="goToDate22()">22nd</li>
+              <li id="Date23" onclick="goToDate23()">23rd</li>
+              <li id="Date24" onclick="goToDate24()">24th</li>
+              <li id="Date25" onclick="goToDate25()">25th</li>
+              <li id="Date26" onclick="goToDate26()">26th</li>
+              <li id="Date27" onclick="goToDate27()">27th</li>
+              <li id="Date28" onclick="goToDate28()">28th</li>
+              <li id="Date29" onclick="goToDate29()">29th</li>
+              <li id="Date30" onclick="goToDate30()">30th</li>
+              <li id="Date31" onclick="goToDate31()">31st</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="datePM">
+      <span onclick="toShowDate()">01.14</span>
+    </div>
+    
+    
+
+    <div style="margin-bottom: 50px;"></div>
+    <div class="sendFrame" style="display: flex; flex-direction: row;">
+      <div class="sendInput"><input type="text" style="height: 30px;" id="sendInputValue"></div>
+      <div class="sendButton" style="height: 20px;"><img src="send.png" style="width: 20px; height: 20px;"></div>
+    </div>
+  </body>
+</html>
