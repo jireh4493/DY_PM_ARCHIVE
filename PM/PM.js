@@ -1412,7 +1412,7 @@ function goToDate12() {
   }
   else {
     if ($("#January").css("font-weight") == 500) {
-      location.href = "#"
+      location.href = "PM_20230112.html"
     }
     else {
       location.href = "PM_20230212.html"
